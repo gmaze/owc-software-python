@@ -12,14 +12,14 @@ df = pd.DataFrame(
 
 gdf = geopandas.GeoDataFrame(df, geometry=geopandas.points_from_xy(df.Longitude, df.Latitude))
 
-print(gdf.head())
+gdf.head()
 
 world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-
-print(world)
 
 ax = world[world.continent == 'Europe'].plot(color='white', edgecolor='black')
 
 gdf.plot(ax=ax, color='red')
 
 plt.show()
+
+
