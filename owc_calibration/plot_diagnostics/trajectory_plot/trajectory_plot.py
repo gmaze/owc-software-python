@@ -25,6 +25,7 @@ import geopandas as gdp # pylint: disable=import-error
 
 # pylint: disable=too-many-locals
 # pylint: disable=too-many-statements
+# pylint: disable=too-many-arguments
 def trajectory_plot(bath, reef, floats, climatology, float_name, config=None):
     """
 
@@ -35,12 +36,11 @@ def trajectory_plot(bath, reef, floats, climatology, float_name, config=None):
     :param float_name: name of float
     :return: nothing
     """
-    
     if config is not None:
         src = config['CONFIG_DIRECTORY']
     else:
         src = "data/constants/"
-        
+
     # load in the coastline data
     coastline = os.path.sep.join([src, "coastline/ne_10m_coastline.shp"])
     map_coast = gdp.read_file(coastline)
