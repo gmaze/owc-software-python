@@ -1,4 +1,4 @@
-# -*coding: UTF-8 -*-
+"""Pypi software definition"""
 
 import setuptools
 
