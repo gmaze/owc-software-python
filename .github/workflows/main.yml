@@ -46,7 +46,12 @@ jobs:
 #        conda info
 #        conda install matplotlib seaborn cartopy
 
-    - name: Lint with flake8
+    - name: Lint with pylint (test used to run at NOC)
+      run: |
+        pip install pylint
+        find . -iname "*.py" | xargs pylint
+
+    - name: Lint with flake8 (new at Github)
       run: |
         pip install flake8
         # stop the build if there are Python syntax errors or undefined names
