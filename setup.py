@@ -17,7 +17,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/gmaze/owc-software-python",
     packages=setuptools.find_packages(),
-    package_dir={'pyowc': 'ow_calibration'},
+    package_dir={'pyowc': 'owc_calibration'},
     package_data={'pyowc': ['data/*']},
     install_requires=requirements,
     classifiers=[

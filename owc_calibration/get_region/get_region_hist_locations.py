@@ -21,9 +21,9 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 """
 
 import numpy as np
-from ow_calibration.change_dates.change_dates import change_dates
-from ow_calibration.get_region.data_functions.get_data import get_data
-from ow_calibration.get_region.data_functions.wrap_longitude import wrap_longitude
+from owc_calibration.change_dates.change_dates import change_dates
+from owc_calibration.get_region.data_functions.get_data import get_data
+from owc_calibration.get_region.data_functions.wrap_longitude import wrap_longitude
 
 
 # pylint: disable=bare-except

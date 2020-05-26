@@ -17,8 +17,8 @@ import unittest
 import os
 import numpy as np
 import scipy.io as scipy
-from ow_calibration.load_configuration.load_configuration import load_configuration
-from ow_calibration.update_salinity_mapping.update_salinity_mapping import update_salinity_mapping
+from owc_calibration.load_configuration.load_configuration import load_configuration
+from owc_calibration.update_salinity_mapping.update_salinity_mapping import update_salinity_mapping
 
 
 # pylint: disable=bare-except

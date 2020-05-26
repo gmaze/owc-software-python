@@ -18,7 +18,7 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 """
 
 import numpy as np
-from ow_calibration.change_dates.cal2dec.cal2dec import cal2dec
+from owc_calibration.change_dates.cal2dec.cal2dec import cal2dec
 
 
 def change_dates(cal_dates):

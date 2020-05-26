@@ -23,7 +23,7 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 """
 
 import numpy as np
-from ow_calibration.map_data_grid.covar_xyt_pv.covar_xyt_pv import covar_xyt_pv
+from owc_calibration.map_data_grid.covar_xyt_pv.covar_xyt_pv import covar_xyt_pv
 
 
 # pylint: disable=too-many-arguments

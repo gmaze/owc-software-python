@@ -37,7 +37,7 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 
 import numpy as np
 import scipy.interpolate as interpolate
-from ow_calibration.build_cov.covarxy_pv.covarxy_pv import covarxy_pv
+from owc_calibration.build_cov.covarxy_pv.covarxy_pv import covarxy_pv
 
 # pylint: disable=too-many-locals
 def build_cov(ptmp, coord_float, config):

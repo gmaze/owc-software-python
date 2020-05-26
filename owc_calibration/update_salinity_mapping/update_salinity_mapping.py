@@ -27,15 +27,15 @@ import time
 import numpy as np
 import scipy.io as scipy
 import scipy.interpolate as interpolate
-from ow_calibration.find_besthist.find_besthist import find_besthist
-from ow_calibration.find_25boxes.find_25boxes import find_25boxes
-from ow_calibration.interp_climatology.interp_climatology import interp_climatology
-from ow_calibration.get_region.get_region_hist_locations import get_region_hist_locations
-from ow_calibration.get_region.get_region_data import get_region_data
-from ow_calibration.map_data_grid.map_data_grid import map_data_grid
-from ow_calibration.noise_variance.noise_variance import noise_variance
-from ow_calibration.signal_variance.signal_variance import signal_variance
-from ow_calibration.tbase_decoder.tbase_decoder import get_topo_grid
+from owc_calibration.find_besthist.find_besthist import find_besthist
+from owc_calibration.find_25boxes.find_25boxes import find_25boxes
+from owc_calibration.interp_climatology.interp_climatology import interp_climatology
+from owc_calibration.get_region.get_region_hist_locations import get_region_hist_locations
+from owc_calibration.get_region.get_region_data import get_region_data
+from owc_calibration.map_data_grid.map_data_grid import map_data_grid
+from owc_calibration.noise_variance.noise_variance import noise_variance
+from owc_calibration.signal_variance.signal_variance import signal_variance
+from owc_calibration.tbase_decoder.tbase_decoder import get_topo_grid
 
 
 # pylint: disable=too-many-locals

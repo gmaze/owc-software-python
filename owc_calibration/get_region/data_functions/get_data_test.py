@@ -14,7 +14,7 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 
 import unittest
 import numpy as np
-from ow_calibration.get_region.data_functions.get_data import get_data
+from owc_calibration.get_region.data_functions.get_data import get_data
 
 
 class GetDataTestCase(unittest.TestCase):

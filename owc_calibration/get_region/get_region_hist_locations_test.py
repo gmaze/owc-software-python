@@ -12,7 +12,7 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 
 import unittest
 import numpy as np
-from ow_calibration.get_region.get_region_hist_locations import get_region_hist_locations
+from owc_calibration.get_region.get_region_hist_locations import get_region_hist_locations
 
 
 class MyTestCase(unittest.TestCase):

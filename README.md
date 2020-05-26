@@ -45,8 +45,8 @@ You can click here to [![badge](https://img.shields.io/badge/launch-Pangeo%20bin
 Otherwise, in a python script, you can calibrate salinity data this way:
 
 ```python
-from ow_calibration.load_configuration.load_configuration import load_configuration
-from ow_calibration.update_salinity_mapping.update_salinity_mapping import update_salinity_mapping
+from owc_calibration.load_configuration.load_configuration import load_configuration
+from owc_calibration.update_salinity_mapping.update_salinity_mapping import update_salinity_mapping
 
 # store name for profile
 FLOAT_NAME = "3901960"
@@ -84,6 +84,6 @@ If you refuse to use anaconda, you can install using binary files. Check the doc
 Then, to run the classic suite of OWC plots, simply type:
 
 ```python
-from ow_calibration.plot_diagnostics.plot_diagnostics import plot_diagnostics
+from owc_calibration.plot_diagnostics.plot_diagnostics import plot_diagnostics
 plot_diagnostics("/", FLOAT_NAME, USER_CONFIG)
 ```

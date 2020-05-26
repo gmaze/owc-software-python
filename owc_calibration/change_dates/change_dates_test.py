@@ -12,7 +12,7 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 
 import unittest
 import numpy as np
-from ow_calibration.change_dates.change_dates import change_dates
+from owc_calibration.change_dates.change_dates import change_dates
 
 
 class MyTestCase(unittest.TestCase):

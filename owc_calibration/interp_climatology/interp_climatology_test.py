@@ -13,7 +13,7 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 import unittest
 import numpy as np
 import scipy.io as scipy
-from ow_calibration.interp_climatology.interp_climatology import interp_climatology
+from owc_calibration.interp_climatology.interp_climatology import interp_climatology
 
 
 # pylint: disable=too-many-instance-attributes

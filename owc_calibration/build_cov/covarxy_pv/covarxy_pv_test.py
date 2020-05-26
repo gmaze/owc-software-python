@@ -12,7 +12,7 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 
 import unittest
 import numpy as np
-from ow_calibration.build_cov.covarxy_pv.covarxy_pv import covarxy_pv
+from owc_calibration.build_cov.covarxy_pv.covarxy_pv import covarxy_pv
 
 
 class MyTestCase(unittest.TestCase):

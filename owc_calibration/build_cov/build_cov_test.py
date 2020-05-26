@@ -13,7 +13,7 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 import unittest
 import numpy as np
 import scipy.io as scipy
-from ow_calibration.build_cov.build_cov import build_cov
+from owc_calibration.build_cov.build_cov import build_cov
 
 
 class MyTestCase(unittest.TestCase):

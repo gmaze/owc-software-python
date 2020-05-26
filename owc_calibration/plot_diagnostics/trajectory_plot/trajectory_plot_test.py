@@ -13,8 +13,8 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 
 import unittest
 import scipy.io as scipy
-from ow_calibration.plot_diagnostics.trajectory_plot.trajectory_plot import trajectory_plot
-from ow_calibration.plot_diagnostics.trajectory_plot.create_dataframe import create_dataframe
+from owc_calibration.plot_diagnostics.trajectory_plot.trajectory_plot import trajectory_plot
+from owc_calibration.plot_diagnostics.trajectory_plot.create_dataframe import create_dataframe
 
 
 # pylint: disable=bare-except

@@ -17,8 +17,8 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 
 import scipy.io as scipy
 import matplotlib.pyplot as plt
-from ow_calibration.plot_diagnostics.trajectory_plot.trajectory_plot import trajectory_plot
-from ow_calibration.plot_diagnostics.trajectory_plot.create_dataframe import create_dataframe
+from owc_calibration.plot_diagnostics.trajectory_plot.trajectory_plot import trajectory_plot
+from owc_calibration.plot_diagnostics.trajectory_plot.create_dataframe import create_dataframe
 
 
 def plot_diagnostics(float_dir, float_name, config):
@@ -41,6 +41,6 @@ def plot_diagnostics(float_dir, float_name, config):
     # create trajectory plot ------------------------------
     grid, floats = create_dataframe(grid_data, float_data)
 
-    trajectory_plot(0, 0, floats, grid, float_name)
+    trajectory_plot(0, 0, floats, grid, float_name, config)
 
     plt.show()

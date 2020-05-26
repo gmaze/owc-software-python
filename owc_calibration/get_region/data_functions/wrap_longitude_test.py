@@ -14,7 +14,7 @@ https://gitlab.noc.soton.ac.uk/edsmall/bodc-dmqc-python
 
 import unittest
 import numpy as np
-from ow_calibration.get_region.data_functions.wrap_longitude import wrap_longitude
+from owc_calibration.get_region.data_functions.wrap_longitude import wrap_longitude
 
 
 class GetDataTestCase(unittest.TestCase):
